@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "dev": "tsc -w -p tsconfig.json",
     "start": "node dist/index.js"
   },
   "repository": {
@@ -22,9 +22,6 @@
   "homepage": "https://github.com/Snehal-Pradhan/linkedin-jobs-wa-alerts#readme",
   "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.9.3",
-    "@types/node": "^20.12.7",
-    "ts-node": "^10.9.2",
-    "nodemon": "^3.1.0"
+    "typescript": "^5.9.3"
   }
 }
