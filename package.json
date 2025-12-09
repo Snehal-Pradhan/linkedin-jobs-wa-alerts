@@ -1,0 +1,30 @@
+{
+  "name": "linkedin-wa",
+  "version": "1.0.0",
+  "description": "linkedin scraper WA pipeline",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snehal-Pradhan/linkedin-jobs-wa-alerts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snehal-Pradhan/linkedin-jobs-wa-alerts/issues"
+  },
+  "homepage": "https://github.com/Snehal-Pradhan/linkedin-jobs-wa-alerts#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.1.0"
+  }
+}
