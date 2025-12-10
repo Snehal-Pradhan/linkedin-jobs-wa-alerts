@@ -1,0 +1,28 @@
+{
+  "name": "linkedin-wa",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "build:dev" : "tsc --watch",
+    "start": "node dist/main.js",
+    "start:dev": "tsx src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snehal-Pradhan/linkedin-jobs-wa-alerts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snehal-Pradhan/linkedin-jobs-wa-alerts/issues"
+  },
+  "homepage": "https://github.com/Snehal-Pradhan/linkedin-jobs-wa-alerts#readme",
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
