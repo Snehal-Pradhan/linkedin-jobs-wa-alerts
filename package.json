@@ -6,9 +6,11 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
-    "build:dev" : "tsc --watch",
+    "build:dev": "tsc --watch",
     "start": "node dist/main.js",
-    "start:dev": "tsx src/main.ts"
+    "start:dev": "tsx src/main.ts",
+    "format:check": "prettier --check .",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/Snehal-Pradhan/linkedin-jobs-wa-alerts#readme",
   "devDependencies": {
+    "prettier": "^3.7.4",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
